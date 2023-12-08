@@ -27,3 +27,14 @@ int main() {
         std::cout << "Element " << i + 1 << ": ";
         std::cin >> dynamicArray[i];
     }
+// Call the function to find the average
+    double average = findAverage(dynamicArray, size);
+
+    // Output: Display the result
+    std::cout << "Average of the elements: " << average << std::endl;
+
+    // Deallocate the dynamically allocated memory
+    delete[] dynamicArray;
+
+    return 0;
+}
