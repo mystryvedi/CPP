@@ -12,3 +12,9 @@ double findAverage(const int* arr, int size) {
    }
 return sum / static_cast<double>(size);
 }
+int main() {
+    int size;
+
+    // Input: Get the size of the array from the user
+    std::cout << "Enter the size of the array: ";
+    std::cin >> size;
