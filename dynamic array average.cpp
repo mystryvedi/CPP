@@ -18,3 +18,12 @@ int main() {
     // Input: Get the size of the array from the user
     std::cout << "Enter the size of the array: ";
     std::cin >> size;
+// Dynamically allocate memory for the array
+    int* dynamicArray = new int[size];
+
+    // Input: Get the elements of the array from the user
+    std::cout << "Enter " << size << " integers:" << std::endl;
+    for (int i = 0; i < size; ++i) {
+        std::cout << "Element " << i + 1 << ": ";
+        std::cin >> dynamicArray[i];
+    }
