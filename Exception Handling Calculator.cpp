@@ -27,3 +27,6 @@ int main() {
         // Handle division by zero exception
         std::cerr << e.what() << std::endl;
     }
+
+    return 0;
+}
