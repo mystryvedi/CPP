@@ -18,3 +18,12 @@ int main() {
 
     std::cout << "Enter the second number: ";
     std::cin >> num2;
+
+    try {
+        // Attempt to perform division and display the result
+        double result = divide(num1, num2);
+        std::cout << "Result of division: " << result << std::endl;
+    } catch (const std::runtime_error& e) {
+        // Handle division by zero exception
+        std::cerr << e.what() << std::endl;
+    }
