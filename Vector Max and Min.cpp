@@ -8,3 +8,6 @@ void findMaxAndMin(const std::vector<int>& vec) {
         std::cerr << "Error: Empty vector." << std::endl;
         return;
     }
+
+    // Use std::minmax_element to find the minimum and maximum values
+    auto result = std::minmax_element(vec.begin(), vec.end());
