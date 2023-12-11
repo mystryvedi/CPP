@@ -11,3 +11,7 @@ void findMaxAndMin(const std::vector<int>& vec) {
 
     // Use std::minmax_element to find the minimum and maximum values
     auto result = std::minmax_element(vec.begin(), vec.end());
+
+    // Dereference the iterators to get the values
+    int minValue = *result.first;
+    int maxValue = *result.second;
