@@ -20,3 +20,6 @@ void findMaxAndMin(const std::vector<int>& vec) {
     std::cout << "Minimum value: " << minValue << std::endl;
     std::cout << "Maximum value: " << maxValue << std::endl;
 }
+
+int main() {
+    int size;
