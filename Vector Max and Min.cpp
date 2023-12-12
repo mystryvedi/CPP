@@ -37,3 +37,6 @@ int main() {
     }
     // Call the function to find the max and min
     findMaxAndMin(numbers);
+
+    return 0;
+}
