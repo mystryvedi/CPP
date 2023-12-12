@@ -35,3 +35,5 @@ int main() {
         std::cout << "Element " << i + 1 << ": ";
         std::cin >> numbers[i];
     }
+    // Call the function to find the max and min
+    findMaxAndMin(numbers);
