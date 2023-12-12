@@ -27,3 +27,6 @@ int main() {
     // Input: Get the size of the vector from the user
     std::cout << "Enter the size of the vector: ";
     std::cin >> size;
+
+    // Input: Get the elements of the vector from the user
+    std::vector<int> numbers(size);
