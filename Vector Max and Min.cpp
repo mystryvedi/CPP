@@ -23,3 +23,7 @@ void findMaxAndMin(const std::vector<int>& vec) {
 
 int main() {
     int size;
+
+    // Input: Get the size of the vector from the user
+    std::cout << "Enter the size of the vector: ";
+    std::cin >> size;
