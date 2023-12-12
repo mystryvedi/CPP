@@ -30,3 +30,5 @@ int main() {
 
     // Input: Get the elements of the vector from the user
     std::vector<int> numbers(size);
+    std::cout << "Enter " << size << " integers:" << std::endl;
+    for (int i = 0; i < size; ++i) {
