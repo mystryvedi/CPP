@@ -26,3 +26,7 @@ std::string reverseWords(const std::string& input) {
 
 int main() {
     std::string sentence;
+
+    // Input: Get a sentence from the user
+    std::cout << "Enter a sentence: ";
+    std::getline(std::cin, sentence);
