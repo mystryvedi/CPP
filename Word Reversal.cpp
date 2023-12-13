@@ -33,3 +33,6 @@ int main() {
 
     // Call the function to reverse the words
     std::string reversedSentence = reverseWords(sentence);
+
+    // Output: Display the result
+    std::cout << "Reversed sentence: " << reversedSentence << std::endl;
