@@ -20,3 +20,6 @@ std::string reverseWords(const std::string& input) {
     if (!result.empty()) {
         result.pop_back();
     }
+
+    return result;
+}
