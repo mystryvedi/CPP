@@ -23,3 +23,6 @@ std::string reverseWords(const std::string& input) {
 
     return result;
 }
+
+int main() {
+    std::string sentence;
