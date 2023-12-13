@@ -36,3 +36,6 @@ int main() {
 
     // Output: Display the result
     std::cout << "Reversed sentence: " << reversedSentence << std::endl;
+
+    return 0;
+}
