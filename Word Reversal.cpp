@@ -30,3 +30,6 @@ int main() {
     // Input: Get a sentence from the user
     std::cout << "Enter a sentence: ";
     std::getline(std::cin, sentence);
+
+    // Call the function to reverse the words
+    std::string reversedSentence = reverseWords(sentence);
