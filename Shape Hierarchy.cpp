@@ -42,3 +42,15 @@ public:
         return 2 * 3.14159 * radius;
     }
 };
+
+int main() {
+    // Create instances of Rectangle and Circle
+    Rectangle rectangle(5.0, 3.0);
+    Circle circle(2.5);
+
+    // Display the area and perimeter of each shape
+    std::cout << "Rectangle - Area: " << rectangle.area() << ", Perimeter: " << rectangle.perimeter() << std::endl;
+    std::cout << "Circle - Area: " << circle.area() << ", Perimeter: " << circle.perimeter() << std::endl;
+
+    return 0;
+}
