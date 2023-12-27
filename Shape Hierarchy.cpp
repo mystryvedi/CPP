@@ -25,3 +25,20 @@ public:
         return 2 * (length + width);
     }
 };
+
+// Derived class representing a circle
+class Circle : public Shape {
+private:
+    double radius;
+
+public:
+    Circle(double r) : radius(r) {}
+
+    double area() const override {
+        return 3.14159 * radius * radius;
+    }
+
+    double perimeter() const override {
+        return 2 * 3.14159 * radius;
+    }
+};
